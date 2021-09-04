@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="icon" href="Photofilter.ico" type="image/x-icon"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Monoton&display=swap" rel="stylesheet">
+  <title>Photo-filter</title>
+</head>
+<body>
+  <header>
+  <div class="container">
+    <div class="header">
+    <h1>Mine  photo  -  filter</h1>
+      <input type="color" id="color">
+    </div>
+    <hr>
+    </div>
+  </header>
+  <main>
+    <div class="main">
+      <div class="container">
+        <div class="wrapper">
+          <div class="properties">
+            <div class="item">
+                <label for="blurRange" id="blur_value">Blur: 0px</label>
+              <input type="range" id="blurRange" min="0" max="20" step ="1" value="0">
+            </div>
+            <div class="item">
+              <label for="brightnessRange" id="brightness_value">Brightness: 100% </label>
+              <input type="range" id="brightnessRange" min="0" max="200" step ="10" value="100">
+            </div>
+            <div class="item">
+              <label for="saturateRange" id="saturate_value">Saturate: 100%</label>
+              <input type="range" id="saturateRange" min="0" max="200" step ="10" value="100">
+            </div>
+            <div class="item">
+              <label for="invert" id="invert_value">Invert: 0%</label>
+              <input type="range" id="invertRange" min="0" max="100" step ="5" value="0">
+            </div>
+            <div class="item">
+              <label for="sepia" id="sepia_value">Sepia: 0%</label>
+              <input type="range" id="sepiaRange" min="0" max="100" step ="5" value="0">
+            </div>
+
+            <div class="presets">
+              <div class="preset-item">
+                <img src="assets/0.jpg" alt="Full inversion" id="invertPreset" width="133" height="80">
+                <p>Negative</p>
+              </div>
+              <div class="preset-item">
+                <img src="assets/0.jpg" alt="Old Style" id="sepiaPreset" width="133" height="80">
+                <p>Old style</p>
+              </div>
+            </div>
+
+            <div class="buttons">
+              <button id="reset">Reset Filters</button>
+              <button id="next">Next Picture</button>          
+            </div>        
+          </div>
+          <div class="slider_container">
+            <div class="slider">
+              <img src="assets/0.jpg" alt="Picture"  class="bg-img" width="750" height="500">
+              <img src="assets/1.jpg" alt="Picture"  class="bg-img" width="750" height="500">
+              <img src="assets/2.jpg" alt="Picture"  class="bg-img" width="750" height="500">
+              <img src="assets/3.jpg" alt="Picture"  class="bg-img" width="750" height="500">
+              <img src="assets/4.jpg" alt="Picture"  class="bg-img" width="750" height="500">
+              <img src="assets/5.jpg" alt="Picture"  class="bg-img" width="750" height="500">
+              <img src="assets/6.jpg" alt="Picture"  class="bg-img" width="750" height="500">
+              <img src="assets/7.jpg" alt="Picture"  class="bg-img" width="750" height="500">
+            </div>
+          </div>
+        </div>
+        <div class="code">
+         <h3 id="CSS"></h3>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="wrapper">
+          <h3>Photo-filter</h3>
+          <div class="gitHub">
+            <a href="https://github.com/Rus203" target="_blank"><img src="assets/icons/rsschool.svg" alt="gitHub" width="120" height="48"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="scripts/scripts.js"></script>
+</body>
+</html>
