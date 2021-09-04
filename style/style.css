@@ -124,6 +124,12 @@ img
  cursor: pointer;
 }
 
+.code
+{
+  text-align: start;
+  margin: -40px 0px -10px 445px;
+  font-style: italic;
+}
 
 .footer
 {

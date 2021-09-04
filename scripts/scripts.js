@@ -22,7 +22,7 @@ const sepiaValue = document.getElementById("sepia_value")
 const invertPreset = document.getElementById("invertPreset");
 const sepiaPreset = document.getElementById("sepiaPreset");
 
-
+const CSS = document.getElementById("CSS");
 
 const presetItem = document.querySelectorAll(".preset-item");
 
