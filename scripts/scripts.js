@@ -19,6 +19,13 @@ const saturateValue = document.getElementById("saturate_value");
 const invertValue = document.getElementById("invert_value");
 const sepiaValue = document.getElementById("sepia_value")
 
+const invertPreset = document.getElementById("invertPreset");
+const sepiaPreset = document.getElementById("sepiaPreset");
+
+
+
+const presetItem = document.querySelectorAll(".preset-item");
+
 // variable for work
 let currentSlide = 0;
 let isInvert = true;

@@ -111,6 +111,20 @@ img
   background-color: rgba(245, 221, 4, 0.966);
 }
 
+.presets
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.preset-item
+{
+ margin: 8px;
+ text-align: center;
+ cursor: pointer;
+}
+
+
 .footer
 {
   background-color: rgba(245, 221, 4, 0.966);
